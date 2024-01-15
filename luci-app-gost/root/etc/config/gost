@@ -1,0 +1,13 @@
+config gost 'node1'
+    option name 'Node 1'
+    option address 'example.com'
+    option port '8080'
+    option password 'password1'
+    option protocol 'socks5'
+
+config gost 'node2'
+    option name 'Node 2'
+    option address 'example.org'
+    option port '8888'
+    option password 'password2'
+    option protocol 'http'

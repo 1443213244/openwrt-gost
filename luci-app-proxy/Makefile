@@ -29,7 +29,7 @@ define Package/$(PKG_NAME)/install
 	$(INSTALL_BIN) ./luasrc/controller/proxy.lua $(1)/usr/lib/lua/luci/controller
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/model/cbi
 	$(INSTALL_BIN) ./luasrc/model/cbi/proxy.lua $(1)/usr/lib/lua/luci/model/cbi
-	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/view
+	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/view/proxy
 	$(INSTALL_DATA) ./luasrc/view/proxy.htm $(1)/usr/lib/lua/luci/view/proxy/
 	$(INSTALL_DATA) ./luasrc/view/proxy_status.htm $(1)/usr/lib/lua/luci/view/proxy/
 	$(INSTALL_DIR) $(1)/etc/config

@@ -11,7 +11,7 @@ define Package/$(PKG_NAME)
 	CATEGORY:=LuCI
 	SUBMENU:=3. Applications
 	TITLE:=Luci Application for proxy
-	DEPENDS:=+proxy
+	DEPENDS:=+gost
 endef
 
 define Package/$(PKG_NAME)/description

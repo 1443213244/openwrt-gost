@@ -1,9 +1,9 @@
 local m, s, o
 
-m = Map("gost", translate("Gost Nodes"))
-m:section(SimpleSection).template = "gost/gost_status"
+m = Map("proxy", translate("Proxy Nodes"))
+m:section(SimpleSection).template = "proxy/proxy_status"
 
-s = m:section(TypedSection, "gost", translate("Gost Node"))
+s = m:section(TypedSection, "proxy", translate("Proxy Node"))
 s.addremove = true
 
 o = s:option(Value, "name", translate("Name"))
